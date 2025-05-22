@@ -1,4 +1,7 @@
+package practice;
+
 public abstract class TangibleAsset{
+	
   private String name;
   private int price;
   private String color;
@@ -8,7 +11,7 @@ public abstract class TangibleAsset{
     this.price = price;
     this.color = color;
   }
-  public String getName(){return this.name}
-  public String getPrice(){return this.price}
-  public String getColor(){return this.color}
+  public String getName(){return this.name;}
+  public int getPrice(){return this.price;}
+  public String getColor(){return this.color;}
 }
